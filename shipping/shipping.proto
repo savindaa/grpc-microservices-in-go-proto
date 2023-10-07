@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option go_package = "github.com/savindaa/grpc-microservices-in-go-proto/shipping";
+
+message CreateShippingRequest {
+
+}
+
+message CreateShippingResponse {
+
+}
+
+service Shipping {
+    rpc Create(CreateShippingRequest) returns (CreateShippingResponse){}
+}
